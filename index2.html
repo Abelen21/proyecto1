@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cifrado Cesar</title>
+        <link rel="stylesheet" href="style2.css">
+
+    </head>
+
+    <body>
+        <main>
+            <div class="columna">
+                <h1>Cifrado Cesar</h1>
+                <div class="entradas">
+                    <input id="texto" type="text" >
+                    <input id="clave" type="text" >
+                </div>
+                <div class="botones">
+                    <!-- <label id="restriccion">No utilizar letras minúsculas, ñ, tildes ni carácteres especiales.</label> -->
+                    <button id="cifrar" type="button" onclick="btncifrar()">Cifrar</button>
+                    <button id="descifrar" type="button">Descifrar</button>
+                </div>
+            </div>
+            
+            <div class="columna">
+                <div class="resultado1">
+                    <img src="imagenes/anonymous2.png"> 
+                    <label id="mensaje">Ningún mensaje fue encontrado</label>
+                    <label id="indicacion">Ingrese texto y clave para cifrar o descifrar</label>
+                </div>
+                <div class="resultado2">
+                    <input id="resultado" type="text">
+                </div>
+            </div>
+
+        </main> 
+    </body>
+
+    <script src="script2.js"></script>
+
+</html>
